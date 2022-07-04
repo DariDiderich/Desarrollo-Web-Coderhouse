@@ -1,0 +1,311 @@
+h1{
+    font-family: 'Fascinate', Helvetica, sans-serif;
+    color: aqua;
+    font-size: 300%;
+    text-align: center;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    border: blue solid;
+    padding: 10px;
+}
+
+body{
+    background-image: url(../assets/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul li{
+    margin: 0 10px
+}
+
+.inicio{
+    list-style: none;
+    font-weight: bold;
+    font-size: 135%;
+    text-align: right;
+}
+
+.inicio{
+        margin-top: -5px;
+        margin-right: 25px;
+}
+
+.inicio{
+    display:flex;
+    float:right;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.img-menu{
+    display: none;
+}
+
+.iniciosesion{
+    margin-left: 25px;
+    padding: 0%;
+
+}
+
+.iniciosesion{
+    color: aqua;
+    text-align: left;
+
+}
+
+.info{
+    margin-top: 150px;
+    margin-left: 50px;
+    padding: 0px;
+}
+
+.info{
+    font-family: 'Joan', Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+    align-content: center;
+    justify-content: space-between;
+    
+}
+
+iframe{
+    width: 750px;
+    height: 500px;
+}
+
+.titulo-calendario{
+    color: aqua;
+    text-align: center;
+}
+
+.titulo-calendario{
+    margin-top: 100px;
+    margin-left: -25px;
+    padding: 0;
+}
+
+.calendario{
+    color: aqua;
+    text-align: center;
+}
+
+.calendario{
+    margin: 5px 5px 5px -25px;
+    padding: 0;
+    list-style-type: square;
+}
+
+footer{
+    color: aqua;
+    
+}
+
+footer{
+    margin-top: 50px;
+    background-color: black;
+    border:solid blue ;
+    border-radius: 25px;
+}
+
+.contact{
+    text-align: right;
+    font-size: 22px;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+
+
+.contacto{
+    display: grid;
+    grid-template-columns: 30%;
+}
+
+
+.espaciomail{
+    margin-left: 0px;
+}
+
+.pqcontact{
+    margin-bottom: 25px;
+}
+
+.mensaje{
+    margin-top: 20px;
+}
+
+.redes{
+    width: 60px;
+    height: 60px;
+}
+
+.redes{
+    margin-left: 50px;
+    padding: 10px;
+}
+
+label{
+    color: aqua;
+}
+
+input{
+    margin: 30px;
+    border: solid blue;
+}
+
+select{
+    border: solid blue;
+}
+
+h4{
+    color: aqua;
+}
+
+h3{
+    color: aqua;
+    font-size: 30px;
+}
+
+.footer-regis{
+    margin-top: 110px;
+}
+
+.footer-cont{
+    margin-top: 270px;
+}
+
+.footer-foro{
+    margin-top: 210px;
+}
+
+button{
+    font-size: 30px;
+    background-color: black;
+    color: aqua;
+    border: solid blue;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+textarea{
+    margin-top: 30px;
+    border: solid blue;
+}
+
+th{
+    color: aqua;
+    font-size: 22px;
+}
+
+td{
+    color: aqua;
+}
+
+table{
+    border: solid blue;
+}
+
+.tabla-noticias{
+    width: 1700px;
+    height: 600px;
+}
+
+.tabla-foro{
+    width: 1000px;
+    height: 300px;
+}
+
+.td-center{
+    text-align: center;
+}
+
+.sinborde{
+    border: none;
+}
+
+.imagen-noticia{
+    width: 275px; height: 200px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .info{
+        margin-top: 0px;
+    }
+
+    .parrafo{
+        display: none;
+    }
+
+    iframe{
+        width: 325px;
+        height: 200px;
+        margin-top: 150px;
+    }
+
+    footer{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .botones{
+        float: right;
+    }
+
+    button{
+        font-size: 25px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+    .inicio{
+        font-size: 10px;
+    }
+
+    .info{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    iframe{
+        display: none;
+    }
+    
+    button{
+        font-size: 15px;
+    }
+
+    .img-menu{
+        display: block;
+        width: 215px;
+        height: 140px;
+        margin-top: 100px;
+        margin-right: 30px;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .calendario{
+        font-size: 13px;
+    }
+
+    }
