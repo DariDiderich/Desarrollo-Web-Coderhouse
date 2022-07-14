@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Fascinate', Helvetica, sans-serif;
+    color: aqua;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.inicio{
+    list-style: none;
+    font-weight: bold;
+    font-size: 135%;
+    text-align: right;
+    margin-top: -5px;
+    margin-right: 25px;
+    padding: 35px;
+}
+
+.inicio{
+    display:flex;
+    float:right;
+    justify-content: space-between;
+}
+
+.inicio :hover{
+    transform: scale(1.3);
+    transition: all 0.5s;
+}

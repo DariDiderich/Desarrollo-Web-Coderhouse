@@ -1,0 +1,25 @@
+.contacto{
+    display: grid;
+    grid-template-columns: 35%;
+}
+
+.espaciomail{
+    margin-left: 0px;
+}
+
+.pqcontact{
+    margin-bottom: 25px;
+}
+
+.mensaje{
+    margin-top: 20px;
+}
+
+select{
+    border: solid blue;
+}
+
+textarea{
+    margin-top: 30px;
+    border: solid darkblue;
+}

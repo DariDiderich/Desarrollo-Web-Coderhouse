@@ -1,0 +1,42 @@
+.iniciosesion{
+    margin-left: 25px;
+    padding: 0%;
+    color: aqua;
+    text-align: left;
+}
+
+.info{
+    margin-top: 150px;
+    margin-left: 50px;
+    padding: 0px;    
+    font-family: 'Joan', Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+    align-content: center;
+    justify-content: space-between;
+    
+}
+
+iframe{
+    width: 650px;
+    height: 450px;
+    margin-left: 100px;
+}
+
+.titulo-calendario{
+    color: aqua;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+
+.calendario{
+    color: aqua;
+    text-align: center;
+    list-style-type: none;
+}

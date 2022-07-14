@@ -1,0 +1,70 @@
+a{
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    border: blue solid;
+    padding: 10px;
+}
+
+body{
+    background-image: url(../assets/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 30px;
+}
+
+body{
+    animation: fondodepagina 40s infinite linear alternate;
+}
+
+@keyframes fondodepagina {
+0% {
+    background-position: 0;
+}
+
+100%{
+    background-position: 1080px;
+}
+
+}
+
+ul li{
+    margin: 0 10px
+}
+
+button{
+    font-size: 30px;
+    background-color: black;
+    color: aqua;
+    border: solid blue;
+    border-radius: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+button :hover{
+   transform: scale(1.1);
+   background-color: blue;
+}
+
+h4{
+    color: aqua;
+}
+
+h3{
+    color: aqua;
+    font-size: 30px;
+}
+
+label{
+    color: aqua;
+}
+
+input{
+    margin: 30px;
+    border: solid blue;
+}
+
+.sinborde{
+    border: none;
+}
