@@ -42,11 +42,6 @@ button{
     cursor: pointer;
 }
 
-button :hover{
-   transform: scale(1.1);
-   background-color: blue;
-}
-
 h4{
     color: aqua;
 }
@@ -62,9 +57,28 @@ label{
 
 input{
     margin: 30px;
+    padding: 3px;
+}
+
+.input-blue{
+    @extend input;
     border: solid blue;
 }
 
 .sinborde{
     border: none;
+}
+
+$headings: (
+    'h1': 10rem,
+    'h2': 3rem,
+    'h3': 1rem
+);
+
+h1{
+    font-size: map-get($headings, $key: 'h1');
+}
+
+h2{
+    font-size: map-get($headings, $key: 'h2');
 }

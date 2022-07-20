@@ -1,4 +1,5 @@
 .iniciosesion{
+    margin-top: 70px;
     margin-left: 25px;
     padding: 0%;
     color: aqua;
@@ -18,13 +19,13 @@
     grid-template-columns: repeat(2, 47%);
     align-content: center;
     justify-content: space-between;
-    
 }
 
 iframe{
     width: 650px;
     height: 450px;
     margin-left: 100px;
+    margin-top: 75px;
 }
 
 .titulo-calendario{
