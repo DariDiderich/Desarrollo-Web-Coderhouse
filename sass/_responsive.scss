@@ -22,19 +22,15 @@
         }
 
     .info{
-        margin-top: 0px;
-        margin-left: 10px;
-    }
+        display: flex;
+        justify-content: center;}
 
     .parrafo{
         display: none;
     }
 
     iframe{
-        width: 325px;
-        height: 200px;
-        margin-top: 150px;
-        margin-left: 10px;
+    display: none;
     }
 
     .titulo-calendario{
@@ -44,6 +40,19 @@
     footer{
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .redes{
+        margin: 5px;
+    }
+
+    .contact{
+        margin: 5px;
+        margin-bottom: 10px;
+    }
+
+    .contact{
+        margin-right: 10%;
     }
 
     .contacto{
@@ -72,6 +81,9 @@
     .carousel-control-next{
         display: none;
     }
+
+    .input-blue{
+        padding-right: 250px; }
 
 }
 
@@ -155,5 +167,13 @@
     .fecha-noticias{
         font-size: 15px;
     }
+
+    .input-blue{
+        padding-right: 200px;
+      }
+
+      .redes{
+        width: 60px;
+        height: 60px;}
 
     }
