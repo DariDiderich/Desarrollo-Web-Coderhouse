@@ -47,11 +47,12 @@ input, .input-blue {
   padding: 3px; }
 
 .input-blue {
-  border: solid blue;
-  padding-right: 200px; }
+  border: solid blue; }
 
 .sinborde {
   border: none; }
+
+
 
 th {
   color: aqua;
@@ -101,13 +102,13 @@ footer {
 .contact {
   text-align: right;
   font-size: 22px;
-  margin-right: 200px;
+  margin-right: 350px;
   margin-top: -30px; }
 
 .redes {
   width: 73px;
   height: 70px;
-  margin-left: 200px;
+  margin-left: 350px;
   padding: 10px; }
 
 h1 {
@@ -154,7 +155,7 @@ iframe {
   width: 650px;
   height: 450px;
   margin-left: 100px;
-  margin-top: 25px; }
+  margin-top: 75px; }
 
 .titulo-calendario {
   color: aqua;
@@ -316,4 +317,3 @@ textarea {
     .redes {
       width: 60px;
       height: 60px; } }
-  
